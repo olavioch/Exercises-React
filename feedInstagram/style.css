@@ -1,0 +1,76 @@
+.marca{
+	background-image: url(images/icons.png);
+    background-size: 278px;
+    width: 122px;
+    height: 31px;
+    background-position: 260px 224px;
+}
+.icons{
+	width : 25px;
+	height: 25px;
+	cursor: pointer;
+	background-image: url(images/icons.png);
+	background-size: 325px;
+}
+.icons:nth-child(1).active{
+background-position: 241px 76px;	
+}
+.icons:nth-child(1).desactive{
+	background-position: 213px 36px;
+}
+.icons:nth-child(2){
+	background-position: 154px 76px;
+}
+.icons:nth-child(3){
+	background-position: 285px 36px;
+}
+
+.icon{
+	width : 25px;
+	height: 25px;
+	cursor: pointer;
+	background-image: url(images/icons.png);
+	background-size: 325px;
+}
+.icon:nth-child(1){
+	    background-position: 197px 76px;
+}
+.icon:nth-child(2){
+    background-position: 64px 76px;
+}
+.icon:nth-child(3){
+	background-position: 282px 77px;
+}
+.perfil{
+	width:30px;
+	height: 30px;
+	border-radius: 100%;
+	border: 1px solid #848484;
+	background-color: #866f67;
+}
+.feed{
+	background-color: #f7f7f7;
+	width:90%;
+	height:500px;
+}
+.back-image{
+	background-image: url(https://i.picsum.photos/id/1010/5184/3456.jpg?hmac=7SE0MNAloXpJXDxio2nvoshUx9roGIJ_5pZej6qdxXs);
+    width: 60%;
+    background-size: cover;
+}
+.ifeed{
+	width: 40%;
+}
+.comentarios{
+	height: 350px;
+}
+.espaço{
+	height: 50px;
+}
+#comentario{
+	border-style: none;
+	background-color: #f7f7f7;
+}
+#comentario:focus{
+	outline-style:none;
+}
